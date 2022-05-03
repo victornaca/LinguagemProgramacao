@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: red;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.view.HelloController">
+   <children>
+      <MenuBar maxHeight="-Infinity" prefWidth="5000.0" style="-fx-background-color: green;">
+        <menus>
+          <Menu fx:id="btnMenuCasdastrar" mnemonicParsing="false" style="-fx-background-color: yellow;" text="Cadastrar">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#btnCliente" text="Cliente" />
+                  <MenuItem mnemonicParsing="false" onAction="#btnFuncionario" text="Funcionario" />
+                  <MenuItem mnemonicParsing="false" onAction="#btnCarro" text="Carro" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
