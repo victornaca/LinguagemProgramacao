@@ -45,7 +45,7 @@ public class HelloController {
 
     @FXML
     private TextField txtPreco;
- // Elementos da tela func
+ // Elementos da tela funcionario
     @FXML
     private AnchorPane geral2;
 
